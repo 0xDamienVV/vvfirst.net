@@ -27,7 +27,7 @@ Je suis actuellement en train de vivre ma <span id="compteur"></span>ème second
 </script>
 
 En ce moment, je suis étudiant en informatique et vous n'allez pas réussir à deviner : j'adore l'informatique !
-Sinon, j'aime aussi l'électronique, les maths et évidemment les jeux vidéo (vous voyez le stéréotype arriver, non ?), notamment les jeux d'énigmes, les jeux narratifs et les sandbox, de préférence Turing-complets.
+Sinon, j'aime aussi l'électronique, les maths et évidemment les jeux vidéo (vous voyez le stéréotype arriver, non ?), notamment les jeux d'énigmes, les jeux narratifs et les jeux sandbox, de préférence Turing-complets.
 
 Sinon, je n'ai pas encore trouvé le sport qui me plairait vraiment.
 Le dernier en date étant le tir à l'arc : très sympa, mais pas très sportif au final. C'est pareil pour les instruments de musique, mais cette fois c'est parce que je n'arrive pas à m'empêcher de traiter la musique comme de l'information et d'en déduire que l'outil le plus adapté est un ordinateur… donc je partirais sur le synthétiseur? J'adore écouter, cependant, ça va de soi :)
@@ -56,7 +56,7 @@ Coming Soon™
 
 Si tu te trouves ici, c'est peut-être aussi pour me contacter ?
 
-- [Mail](mailto:damienvv@vvfirst.net) (Ma [Clé PGP](/static/pubkey.txt) si besoin.)
+- [Mail](mailto:damienvv@vvfirst.net) (Ma [Clé PGP](/static/pubkey.txt) si besoin)
 - [GitHub](https://github.com/0xDamienVV)
 - [Steam](https://steamcommunity.com/id/DamienVV/)
 - Discord → @damienvv

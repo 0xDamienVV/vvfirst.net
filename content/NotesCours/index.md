@@ -1,5 +1,5 @@
 ---
-title: "Notes de Cours"
+title: "Théorie"
 ---
 
 Bienvenue dans mes notes de cours !  
