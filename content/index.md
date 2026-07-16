@@ -38,8 +38,7 @@ Ah oui, je suis team chats aussi mais pas radicalisé pour autant
 
 ## Les infos sur le site
 
-Ce site est mon Jardin Numérique. Le principe, c'est d'y déposer un peu toutes les idées que l'on veut partager, peu importe leur taille et leur profondeur, et de les relier aux informations déjà présentes. Elles vont ainsi se consolider et grandir. Le but, c'est de lutter contre l'oubli, et d'envoyer un beau message qui évolue continuellement (comme un jardin !) à son futur soi.  
-(coucou \o/)
+Ce site est mon Jardin Numérique. Le principe, c'est d'y déposer un peu toutes les idées que l'on veut partager, peu importe leur taille et leur profondeur, et de les relier aux informations déjà présentes. Elles vont ainsi se consolider et grandir. Le but, c'est de lutter contre l'oubli, et d'envoyer un beau message qui évolue continuellement (comme un jardin !) à son futur soi. (coucou \o/)
 
 ### Pour commencer la balade
 Coming Soon™

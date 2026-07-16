@@ -17,8 +17,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: "Share Tech Mono"
-      body: "Share Tech Mono"
+      header: "VT323"
+      body: "VT323"
       code: "Fira Code"
     colors:
       lightMode:
@@ -103,8 +103,8 @@ plugins:
     enabled: true
     options:
       fontOrigin: googleFonts
-      header: "Share Tech Mono"
-      body: "Share Tech Mono"
+      header: "VT323"
+      body: "VT323"
       code: "Fira Code"
   - source: github:quartz-community/remove-draft
     enabled: true
