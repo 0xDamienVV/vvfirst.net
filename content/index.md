@@ -1,5 +1,5 @@
 ---
-title: "[damienvv@vvfirst.net ~]$ _"
+title: "[damienvv@vvcomputer ~]$ _"
 ---
 
 <div class="dappled-scene" aria-hidden="true"></div>
@@ -58,4 +58,5 @@ Si tu te trouves ici, c'est peut-être aussi pour me contacter ?
 - [Mail](mailto:damienvv@vvfirst.net) (Ma [Clé PGP](/static/pubkey.txt) si besoin)
 - [GitHub](https://github.com/0xDamienVV)
 - [Steam](https://steamcommunity.com/id/DamienVV/)
+- [Keybase](https://keybase.io/damienvv)
 - Discord → @damienvv
