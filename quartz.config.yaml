@@ -117,7 +117,7 @@ plugins:
   - source: github:quartz-community/encrypted-pages
     enabled: false
   - source: github:quartz-community/stacked-pages
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50

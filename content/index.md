@@ -15,7 +15,7 @@ Moi c'est Damien, et vous vous trouvez sur mon magnifique site Internet fait ave
 <div>
 Je suis actuellement en train de vivre ma <span id="compteur"></span>ème seconde de vie.
 </div>
-
+(je n'ai pas implémenté la détection de ma mort, venez vérifier de temps en temps si je donne des signes de vie svp)
 <script>
   const depart = 0x4544BB67;
   function majCompteur() {
@@ -26,13 +26,14 @@ Je suis actuellement en train de vivre ma <span id="compteur"></span>ème second
   setInterval(majCompteur, 1000);
 </script>
 
-En ce moment, je suis étudiant en informatique et vous n'allez pas réussir à deviner : j'adore l'informatique !
-Sinon, j'aime aussi l'électronique, les maths et évidemment les jeux vidéo (vous voyez le stéréotype arriver, non ?), notamment les jeux d'énigmes, les jeux narratifs et les jeux sandbox, de préférence Turing-complets.
-
-Sinon, je n'ai pas encore trouvé le sport qui me plairait vraiment.
-Le dernier en date étant le tir à l'arc : très sympa, mais pas très sportif au final. C'est pareil pour les instruments de musique, mais cette fois c'est parce que je n'arrive pas à m'empêcher de traiter la musique comme de l'information et d'en déduire que l'outil le plus adapté est un ordinateur… donc je partirais sur le synthétiseur? J'adore écouter, cependant, ça va de soi :)
-
-Ah oui, je suis team chats aussi mais pas radicalisé pour autant
+### Les pa$$ions
+Je m'intéresse beaucoup à la cryptographie, la programmation à faible niveau d'abstraction et la programmation fonctionnelle, les jeux vidéo indépendants, l'électronique, le rétrocomputing ainsi que (GNU)-Linux et les logiciels open source en général.
+J'apprécie énormément les jeux vidéo d'ailleurs, notamment les jeux d'énigmes, les jeux de gestion, les jeux narratifs, les jeux de stratégie et les jeux sandbox, de préférence Turing-complets.
+Au contraire, les jeux compétitifs, les jeux massivement multijoueurs et les jeux ayant pour thème la fantasy exercent une force répulsive à l'encontre de ma personne (oui, c'est eux le problème).
+Sinon, sur le second plan, on peut trouver la littérature, écouter de la musique (oui, c'est une activité indépendante des autres !), les jeux de plateau et les chats.
+### Avec les autres
+Je suis aussi particulièrement introverti et apprécie souvent être seul (parfois trop), je vous file mon code de personnalité : **INTP 5w6 9w1 4w5 sp/so**  
+Je ne suis pas du genre à croire à la pure véracité de ces tests, mais ça me correspond vraiment bien et je trouve dingue qu'on puisse communiquer autant d'informations avec un code aussi petit.
 
 ---
 
@@ -44,10 +45,6 @@ Ce site est mon Jardin Numérique. Le principe, c'est d'y déposer un peu toutes
 Coming Soon™
 
 [Mes Notes de Cours](NotesCours/)  
-
-[Mes Histoires et Projets](Moi/)  
-
-[Mes Reviews](Reviews/)
 
 ---
 
