@@ -1,3 +1,57 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+body {
+  font-family: var(--bodyFont);
+}
+
+@font-face {
+  font-family: "VT323";
+  src: url("static/fonts/vt323-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Code";
+  src: url("static/fonts/firacode-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --headerFont: "VT323", monospace;
+  --bodyFont: "VT323", monospace;
+  --codeFont: "Fira Code", monospace;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--headerFont);
+}
+code, pre, pre * {
+  font-family: var(--codeFont);
+}
+
+html {
+  font-size: 22px;
+}
+
+.page {
+  max-width: 100%;
+  padding: 0 1.5rem;
+}
+
+.page > #quartz-body {
+  grid-template-columns: 15rem minmax(0, 1fr) 15rem;
+  gap: 2.5rem;
+}
+
+.page-title {
+  white-space: nowrap;
+  font-size: 1.4rem; /* un peu plus petit que le texte courant */
+}
+
+.page article,
+.center {
+  max-width: 100%;
+}
