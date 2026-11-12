@@ -4,10 +4,10 @@ order: 2
 ---
 
 > [!definition] Définition
-> Un **opérateur logique** est une opération qui agit sur une ou plusieures [[enonce#propositions|propositions]] déjà existantes pour construire une nouvelle [[enonce#propositions|proposition]].  
-> La valeur de vérité de la [[enonce#propositions|proposition]] obtenu dépend alors **uniquement** des valeurs de vérité des [[enonce#propositions|propositions]] de départ.
+> Un **opérateur logique** est une opération qui agit sur une ou plusieurs [[enonce#propositions|propositions]] déjà existantes pour construire une nouvelle [[enonce#propositions|proposition]].  
+> La valeur de vérité de la [[enonce#propositions|proposition]] obtenue dépend alors **uniquement** des valeurs de vérité des [[enonce#propositions|propositions]] de départ.
 
-On note $P$ et $Q$ deux [[enonce#propositions|proposition]] quelconques.
+Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques:
 
 # Négation
 
@@ -42,7 +42,7 @@ On note $P$ et $Q$ deux [[enonce#propositions|proposition]] quelconques.
 # Disjonction
 >[!definition]
 >Notée $P \lor Q$ ou « $P$ ou $Q$ », la **disjonction** est un **opérateur logique** qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
->$P \lor Q$ est VRAI quand au moins un des deux est VRAI.
+>$P \lor Q$ est VRAI exactement quand au moins l'un des deux est VRAI.
 
 | $P$ | $Q$ | $P \lor Q$ |
 |:---:|:---:|:---:|
@@ -62,7 +62,7 @@ On note $P$ et $Q$ deux [[enonce#propositions|proposition]] quelconques.
 >[!definition]
 >Notée $P \Rightarrow Q$ ou « si $P$ alors $Q$ », l'**implication** est un **opérateur logique** qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
 >$P \Rightarrow Q$ n'est FAUX que dans un seul cas : $P$ VRAI et $Q$ FAUX.  
->On peut aussi noter: $(\neg P) \lor Q$ 
+>Cette proposition est logiquement équivalente à $(\neg P) \lor Q$.
 
 Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**.
 
@@ -78,16 +78,16 @@ Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**.
 - $(2 = 3) \Rightarrow (3 < 5)$ est VRAI
 
 > [!warning] Le faux implique tout
-> Si $P$ est faux, alors $P \Rightarrow Q$ est vrai, quel que soit $Q$.   
+> Si $P$ est faux, alors $P \Rightarrow Q$ est vrai, quel que soit $Q$ : c'est une vérité par vacuité.  
 > L'implication ne dit rien de $Q$ quand l'hypothèse n'est pas remplie. Elle affirme seulement qu'on ne peut pas avoir $P$ vrai et $Q$ faux.
 
-# Equivalence
-On note $P$ et $Q$ deux [[Propositions|propositions]] quelconques.
+# Équivalence
+On note $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 
 >[!definition]
 >Notée $P \Leftrightarrow Q$ ou « $P$ si et seulement si $Q$ », l'**équivalence** est un opérateur logique qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
 >$P \Leftrightarrow Q$ est VRAI quand $P$ et $Q$ ont **la même** valeur de vérité.  
->On peut aussi noter: $(P \Rightarrow Q) \land (Q \Rightarrow P)$
+>Cette proposition est logiquement équivalente à $(P \Rightarrow Q) \land (Q \Rightarrow P)$.
 
 | $P$ | $Q$ | $P \Leftrightarrow Q$ |
 |:---:|:---:|:---:|
