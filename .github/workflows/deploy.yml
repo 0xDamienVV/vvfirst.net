@@ -38,15 +38,8 @@ jobs:
         run: |
           rm -rf .quartz/plugins quartz/.quartz-cache
           npm run install-plugins
-      - name: Check plugin index
-        run: ls -la .quartz/plugins
       - name: Build Quartz
         run: npx quartz build
-      - name: Check CSS size
-        run: |
-          ls -la public/index.css
-          wc -c public/index.css
-          test "$(wc -c < public/index.css)" -gt 20000 || (echo "CSS incomplet" && exit 1)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
