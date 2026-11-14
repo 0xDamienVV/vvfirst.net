@@ -2,6 +2,7 @@
 title: Propriétés Logiques Remarquables
 order: 3
 ---
+
 # Formes Identiques
 > [!definition] Définition
 > Deux [[enonce#propositions|propositions]] $P$ et $Q$ sont dites **identiques**, notées $P \equiv Q$, si elles ont la même valeur quelle que soit la valeur de leurs variables.  
@@ -9,7 +10,7 @@ order: 3
 
 > [!warning] $\equiv$ et $\Leftrightarrow$
 > $P \equiv Q$ affirme une identité logique, tandis que $P \Leftrightarrow Q$ est une [[enonce#propositions|proposition]] qui affirme que $P$ et $Q$ ont la même valeur de vérité.  
->Les deux notations sont liées, mais ne s'emploient pas au même niveau.
+> Les deux notations sont liées, mais ne s'emploient pas au même niveau.
 
 # Double Négation
 Soit $P$ une [[enonce#propositions|proposition]] quelconque,
@@ -17,7 +18,7 @@ Soit $P$ une [[enonce#propositions|proposition]] quelconque,
 > $\neg(\neg P) \equiv P$
 
 ### Exemple
-- $\neg(\neg P)$ est identique à $P$ car la double négation annule la négation.
+- $\neg(\neg P)$ est identique à $P$ car la double [[operateurs-logiques#négation|négation]] annule la négation.
 
 # Commutativité
 Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
@@ -44,7 +45,7 @@ Soient $P$, $Q$ et $R$ des [[enonce#propositions|propositions]] quelconques.
 > $P \lor (Q \land R) \equiv (P \lor Q) \land (P \lor R)$
 
 ### Exemple
-- $P \land (Q \lor R)$ est identique à $(P \land Q) \lor (P \land R)$ car la conjonction se distribue sur la disjonction.
+- $P \land (Q \lor R)$ est identique à $(P \land Q) \lor (P \land R)$ car la [[operateurs-logiques#conjonction|conjonction]] se distribue sur la [[operateurs-logiques#disjonction|disjonction]].
 
 # Idempotence
 Soit $P$ une [[enonce#propositions|proposition]] quelconque.
@@ -53,7 +54,7 @@ Soit $P$ une [[enonce#propositions|proposition]] quelconque.
 > $P \lor P \equiv P$
 
 ### Exemples
-- $P \lor P$ est identique à $P$ car répéter la même proposition ne change pas sa valeur.
+- $P \lor P$ est identique à $P$ car répéter la même [[enonce#propositions|proposition]] ne change pas sa valeur.
 
 # Éléments neutres
 Soit $P$ une [[enonce#propositions|proposition]] quelconque ainsi que $\top$ la [[enonce#propositions|proposition]] toujours **VRAIE** et $\bot$ la [[enonce#propositions|proposition]] toujours **FAUSSE**.
@@ -62,7 +63,7 @@ Soit $P$ une [[enonce#propositions|proposition]] quelconque ainsi que $\top$ la 
 > $P \lor \bot \equiv P$
 
 ### Exemple
-- $P \land \top$ est identique à $P$ car la conjonction avec une proposition toujours vraie laisse $P$ inchangée.
+- $P \land \top$ est identique à $P$ car la [[operateurs-logiques#conjonction|conjonction]] avec une [[enonce#propositions|proposition]] toujours vraie laisse $P$ inchangée.
 
 # Éléments absorbants
 Soit $P$ une [[enonce#propositions|proposition]] quelconque ainsi que $\top$ la [[enonce#propositions|proposition]] toujours **VRAIE** et $\bot$ la [[enonce#propositions|proposition]] toujours **FAUSSE**.
@@ -71,7 +72,7 @@ Soit $P$ une [[enonce#propositions|proposition]] quelconque ainsi que $\top$ la 
 > $P \lor \top \equiv \top$
 
 ### Exemple
-- $P \lor \top$ est identique à $\top$ car la disjonction avec une proposition toujours vraie est vraie.
+- $P \lor \top$ est identique à $\top$ car la [[operateurs-logiques#disjonction|disjonction]] avec une [[enonce#propositions|proposition]] toujours vraie est vraie.
 
 # Absorption
 Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
@@ -80,7 +81,7 @@ Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
 > $P \land (P \lor Q) \equiv P$
 
 ### Exemple
-- $P \lor (P \land Q)$ est identique à $P$ car si $P$ est fausse, la conjonction est également fausse.
+- $P \lor (P \land Q)$ est identique à $P$ car si $P$ est fausse, la [[operateurs-logiques#conjonction|conjonction]] est également fausse.
 
 # Lois de De Morgan
 > [!property] Propriété
@@ -90,4 +91,4 @@ Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
 Ces lois sont également à l'origine de la [[quantificateurs#négation-des-quantificateurs|négation des quantificateurs]].
 
 ### Exemple
-- $\neg(P \land Q)$ est identique à $(\neg P) \lor (\neg Q)$ car la conjonction est fausse dès qu'un terme est faux.
+- $\neg(P \land Q)$ est identique à $(\neg P) \lor (\neg Q)$ car la [[operateurs-logiques#conjonction|conjonction]] est fausse dès qu'un terme est faux.

@@ -2,12 +2,13 @@
 title: Énoncés
 order: 1
 ---
->[!definition] Définition
->Un **énoncé** est une phrase en langage naturel ou symbolique qui a un sens précis et affirme quelque chose.
+
+> [!definition] Définition
+> Un **énoncé** est une phrase en langage naturel ou symbolique qui a un sens précis et affirme quelque chose.
 
 # Propositions
 > [!definition] Définition
-> Un **énoncé propositionnel**, ou **proposition**, est un [[enonce|énoncé]] dont on peut dire sans ambiguïté qu'il est strictement soit **VRAI**, soit **FAUX**.  
+> Un **énoncé propositionnel**, ou **proposition**, est un énoncé dont on peut dire sans ambiguïté qu'il est strictement soit **VRAI**, soit **FAUX**.  
 > Les [[operateurs-logiques|opérateurs logiques]] permettent de construire de nouvelles propositions à partir de propositions existantes.
 
 ## Nommer une proposition
@@ -31,7 +32,7 @@ On peut alors dire que $T$ est VRAIE car $4$ est égal à $4$.
 
 # Prédicats
 > [!definition] Définition
-> Un **prédicat** est un [[enonce|énoncé]] contenant des variables indéterminées, qui devient une [[enonce#propositions|proposition]] quand on fixe ces variables ou qu'on les [[quantificateurs|quantifie]].
+> Un **prédicat** est un énoncé contenant des variables indéterminées, qui devient une proposition quand on fixe ces variables ou qu'on les [[quantificateurs|quantifie]].
 
 ## Nommer un prédicat
 Comme les propositions, les prédicats peuvent être nommés :
@@ -39,5 +40,5 @@ Comme les propositions, les prédicats peuvent être nommés :
 $T(x) : x < 3$
 
 ### Exemples
-- « $x = 3$ » est un prédicat car la variable $x$ n'est pas fixée ni quantifiée.
+- « $x = 3$ » est un prédicat car la variable $x$ n'est pas fixée ni [[quantificateurs|quantifiée]].
 - « $x = 3$ » est FAUX quand $x=0$ car $0$ est différent de $3$.
