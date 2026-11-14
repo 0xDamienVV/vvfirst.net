@@ -2,18 +2,15 @@
 title: Opérateurs Logiques
 order: 2
 ---
-
-> [!definition] Définition
-> Un **opérateur logique** est une opération qui agit sur une ou plusieurs [[enonce#propositions|propositions]] déjà existantes pour construire une nouvelle [[enonce#propositions|proposition]].  
-> La valeur de vérité de la [[enonce#propositions|proposition]] obtenue dépend alors **uniquement** des valeurs de vérité des [[enonce#propositions|propositions]] de départ.
-
-Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques:
+>[!definition]
+>Un **opérateur logique** est une opération qui agit sur une ou plusieurs [[enonce#propositions|propositions]] pour construire une nouvelle [[enonce#propositions|proposition]].  
+>Sa valeur de vérité dépend uniquement des valeurs de vérité des [[enonce#propositions|propositions]] de départ.
 
 # Négation
-
->[!definition]
->Notée $\neg P$ ou « non $P$ », la **négation** est un **opérateur logique** qui renvoie la [[enonce#propositions|proposition]] opposée.  
->$\neg P$ est vrai exactement quand $P$ est FAUX.
+Soit $P$ une [[enonce#propositions|proposition]] quelconque.
+> [!definition] Définition
+> Notée $\neg P$ ou « non $P$ », la **négation** est un [[operateurs-logiques|opérateur logique]] qui renvoie la [[enonce#propositions|proposition]] opposée.  
+> $\neg P$ est **VRAIE** exactement quand $P$ est **FAUSSE**.
 
 | $P$ | $\neg P$ |
 |:---:|:---:|
@@ -21,13 +18,13 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques:
 | FAUX | VRAI |
 
 ### Exemple
-- $\neg (3 = 5)$ est VRAI
+- $\neg(3=5)$ est VRAI car $3=5$ est FAUX.
 
 # Conjonction
-
->[!definition]
->Notée $P \land Q$ ou « $P$ et $Q$ », la **conjonction** est un **opérateur logique** qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
->$P \land Q$ est VRAI exactement quand $P$ et $Q$ sont tous les deux VRAI.
+Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
+> [!definition] Définition
+> Notée $P \land Q$ ou « $P$ et $Q$ », la **conjonction** est un [[operateurs-logiques|opérateur logique]].  
+> Elle est **VRAIE** exactement quand $P$ et $Q$ sont toutes deux **VRAIES**.
 
 | $P$ | $Q$ | $P \land Q$ |
 |:---:|:---:|:---:|
@@ -37,12 +34,13 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques:
 | FAUX | FAUX | FAUX |
 
 ### Exemple
-- $(3=5) \land (4=4)$ est FAUX
+- $(3=5) \land (4=4)$ est FAUX car le premier terme est FAUX.
 
 # Disjonction
->[!definition]
->Notée $P \lor Q$ ou « $P$ ou $Q$ », la **disjonction** est un **opérateur logique** qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
->$P \lor Q$ est VRAI exactement quand au moins l'un des deux est VRAI.
+Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
+> [!definition] Définition
+> Notée $P \lor Q$ ou « $P$ ou $Q$ », la **disjonction** est un [[operateurs-logiques|opérateur logique]].  
+> Elle est **VRAIE** exactement quand au moins l'une des deux [[enonce#propositions|propositions]] est **VRAIE**.
 
 | $P$ | $Q$ | $P \lor Q$ |
 |:---:|:---:|:---:|
@@ -52,19 +50,20 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques:
 | FAUX | FAUX | FAUX |
 
 ### Exemple
-- $(2 = 2) \lor (2 > 1)$ est VRAI
+- $(2=2) \lor (2>1)$ est VRAI car les deux propositions sont VRAIES.
 
 > [!warning] Le « ou » mathématique est inclusif
-> $P \lor Q$ est aussi vrai quand $P$ et $Q$ sont vrais en même temps.  
-> En langage naturel, le « ou » est souvent exclusif, de sorte à communiquer l'idée d'un choix, ce qui n'est pas le cas en mathématiques.
+> $P \lor Q$ est vrai lorsque $P$ et $Q$ sont vrais en même temps.  
+> En langage naturel, le « ou » est souvent exclusif pour communiquer l'idée d'un choix, contrairement au « ou » mathématique.
 
 # Implication
->[!definition]
->Notée $P \Rightarrow Q$ ou « si $P$ alors $Q$ », l'**implication** est un **opérateur logique** qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
->$P \Rightarrow Q$ n'est FAUX que dans un seul cas : $P$ VRAI et $Q$ FAUX.  
->Cette proposition est logiquement équivalente à $(\neg P) \lor Q$.
+Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
+> [!definition] Définition
+> Notée $P \Rightarrow Q$ ou « si $P$ alors $Q$ », l'**implication** est un [[operateurs-logiques|opérateur logique]].  
+> Elle est **FAUSSE** dans le seul cas où $P$ est **VRAIE** et $Q$ **FAUSSE**.  
+> Elle est [[proprietes-logiques-remarquables|logiquement équivalente]] à $(\neg P) \lor Q$.
 
-Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**.
+Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**. Voir aussi la [[implications-remarquables|réciproque et la contraposée]].
 
 | $P$ | $Q$ | $P \Rightarrow Q$ |
 |:---:|:---:|:---:|
@@ -74,20 +73,19 @@ Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**.
 | FAUX | FAUX | VRAI |
 
 ### Exemples
-- $(3 < 5) \Rightarrow (2 = 3)$ est FAUX
-- $(2 = 3) \Rightarrow (3 < 5)$ est VRAI
+- $(3<5) \Rightarrow (2=3)$ est FAUX car l'hypothèse est vraie et la conclusion est fausse.
+- $(2=3) \Rightarrow (3<5)$ est VRAI car une implication à hypothèse fausse est vraie par vacuité.
 
 > [!warning] Le faux implique tout
-> Si $P$ est faux, alors $P \Rightarrow Q$ est vrai, quel que soit $Q$ : c'est une vérité par vacuité.  
-> L'implication ne dit rien de $Q$ quand l'hypothèse n'est pas remplie. Elle affirme seulement qu'on ne peut pas avoir $P$ vrai et $Q$ faux.
+> Si $P$ est fausse, alors $P \Rightarrow Q$ est vraie, quel que soit $Q$ : c'est une vérité par vacuité.  
+> Cette règle est reliée au cas de l'ensemble vide : aucun élément ne peut constituer un contre-exemple.
 
 # Équivalence
-On note $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
-
->[!definition]
->Notée $P \Leftrightarrow Q$ ou « $P$ si et seulement si $Q$ », l'**équivalence** est un opérateur logique qui renvoie une [[enonce#propositions|proposition]] de la nature suivante:  
->$P \Leftrightarrow Q$ est VRAI quand $P$ et $Q$ ont **la même** valeur de vérité.  
->Cette proposition est logiquement équivalente à $(P \Rightarrow Q) \land (Q \Rightarrow P)$.
+Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
+> [!definition] Définition
+> Notée $P \Leftrightarrow Q$ ou « $P$ si et seulement si $Q$ », l'**équivalence** est un [[operateurs-logiques|opérateur logique]].  
+> Elle est **VRAIE** quand $P$ et $Q$ ont la même valeur de vérité.  
+> Elle est [[proprietes-logiques-remarquables|logiquement équivalente]] à $(P \Rightarrow Q) \land (Q \Rightarrow P)$.
 
 | $P$ | $Q$ | $P \Leftrightarrow Q$ |
 |:---:|:---:|:---:|
@@ -97,5 +95,5 @@ On note $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 | FAUX | FAUX | VRAI |
 
 ### Exemples
-- $(3 < 5) \Leftrightarrow (2 = 3)$ est FAUX
-- $(2 = 3) \Leftrightarrow (3 > 5)$ est VRAI
+- $(3<5) \Leftrightarrow (2=3)$ est FAUX car les deux propositions ont des valeurs différentes.
+- $(2=3) \Leftrightarrow (3>5)$ est VRAI car les deux propositions sont FAUSSES.
