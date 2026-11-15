@@ -4,18 +4,18 @@ order: 9
 ---
 # Couples
 >[!definition] Définition
-> Un **couple** $(a,b)$ est un couple ordonné dont la première coordonnée est $a$ et la seconde coordonnée est $b$.  
+> Un **couple** $(a,b)$ est un élément ordonné composé d'une première coordonnée $a$ et d'une seconde coordonnée $b$.  
 >Deux couples sont égaux si et seulement si leurs coordonnées correspondantes sont égales : $(a,b)=(c,d) \Leftrightarrow a=c \land b=d$.
 
 # Produit Cartésien
-Soient $A,B$ des ensembles.
+Soient $A,B$ des [[definition-ensemble|ensembles]].
 > [!definition] Définition
-> Le **produit cartésien** de $A$ par $B$, noté $A \times B$, est l'ensemble des couples dont la première coordonnée appartient à $A$ et la seconde à $B$ :
+> Le **produit cartésien** de $A$ par $B$, noté $A \times B$, est l'[[definition-ensemble|ensembles]] des **couples** dont la première coordonnée appartient à $A$ et la seconde à $B$ :
 > $A \times B = \{(a,b) \mid a \in A,\ b \in B\}$
-> $A \times B$ contient toujours $|A| \times |B|$ éléments.
 
->[!property] Remarque
-> On note $E^2=E \times E$ le produit cartésien d'un même ensemble.
+>[!property] Remarques
+> On note $E^2=E \times E$ le **produit cartésien** d'un même [[definition-ensemble|ensemble]].
+> Le [[cardinal|cardinal]] de $A \times B$ est $|A| |B|$.
 
 ### Exemple
 Soient $A = \{x, y, z\}$ et $B = \{1, 2\}$. Alors :

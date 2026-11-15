@@ -2,7 +2,6 @@
 title: Sous-Ensembles
 order: 4
 ---
-# Inclusion
 Soient $A,B \subset E$.
 > [!definition] Définition
 > On dit que $A$ est un **sous-ensemble** de $B$, ou que $A$ est **inclus** dans $B$, et on note $A \subset B$, si tout élément de $A$ appartient à $B$ :  

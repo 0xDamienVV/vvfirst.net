@@ -17,7 +17,7 @@ Soient $A,B \subset E$.
 > [!definition] Définition
 > L'**intersection** de $A$ et $B$, notée $A \cap B$, contient les éléments qui appartiennent à la fois à $A$ et à $B$ :  
 > $A \cap B = \{x \in E \mid x \in A \land x \in B\}$  
-> Deux ensembles sont **disjoints** si leur intersection est vide.
+> Deux ensembles sont **disjoints** si leur intersection est l'[[definition-ensemble#ensemble-vide|ensemble vide]].
 
 ### Exemples
 - $\{1,2\} \cap \{2,3\}=\{2\}$ est VRAI car $2$ est leur seul élément commun.
@@ -26,9 +26,9 @@ Soient $A,B \subset E$.
 # Complémentaire
 Soit $A \subset E$.
 > [!definition] Définition
-> Le **complémentaire** de $A$ dans $E$, noté $\complement_E A$, est l'ensemble des éléments de $E$ qui n'appartiennent pas à $A$ :  
+> Le **complémentaire** de $A$ dans $E$, noté $\complement_E A$, est l'[[definition-ensemble|ensemble]] des éléments de $E$ qui n'appartiennent pas à $A$ :  
 > $\complement_E A = \{x \in E \mid x \notin A\}$  
-> Le complémentaire dépend de l'ensemble de référence $E$.
+> Le **complémentaire** dépend de l'ensemble de référence $E$.
 
 ### Exemples
 - Si $E=\{1,2,3,4\}$ et $A=\{1,3\}$, alors $\complement_E A=\{2,4\}$ est VRAI car ce sont exactement les éléments de $E$ qui ne sont pas dans $A$.
@@ -37,7 +37,7 @@ Soit $A \subset E$.
 # Différence
 Soient $A,B \subset E$.
 > [!definition] Définition
-> La **différence** $A \setminus B$ est l'ensemble des éléments de $A$ qui ne sont pas dans $B$ :  
+> La **différence** $A \setminus B$ est l'[[definition-ensemble|ensemble]] des éléments de $A$ qui ne sont pas dans $B$ :  
 > $A \setminus B = \{x \in E \mid x \in A \land x \notin B\}$
 
 ### Exemples

@@ -2,13 +2,13 @@
 title: Ensemble des Parties
 order: 8
 ---
-Soit $E$ un ensemble.
+Soit $E$ un [[definition-ensemble|ensemble]].
 > [!definition] Définition
-> L'**ensemble des parties** de $E$, noté $\mathcal{P}(E)$, est l'ensemble dont les éléments sont tous les sous-ensembles de $E$ :
+> L'**ensemble des parties** de $E$, noté $\mathcal{P}(E)$, est l'[[definition-ensemble|ensemble]] dont les éléments sont tous les [[sous-ensembles|sous-ensembles]] de $E$ :
 > $\mathcal{P}(E)=\{A \mid A \subset E\}$
 
 >[!property] Remarque
-> $\mathcal{P}(E)$ contient toujours $2^{|E|}$ éléments.
+> Le [[cardinal|cardinal]] de $\mathcal{P}(E)$ est $2^{|E|}$.
 
 ### Exemples
 - $\varnothing \in \mathcal{P}(E)$ est VRAI car l'ensemble vide est inclus dans tout ensemble $E$.
