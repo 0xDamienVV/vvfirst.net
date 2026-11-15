@@ -3,7 +3,8 @@ title: Ensembles
 order: 1
 ---
 > [!definition] Définition
-> Un **ensemble** est une collection d'objets appelés ses **éléments**.  
+> Un **ensemble** est une collection d'objets appelés ses **éléments**.
+> On doit pouvoir savoir sans ambiguité si un élément est dans un ensemble ou non.
 > Si $x$ est un élément de $E$, on note $x \in E$; sinon, on note $x \notin E$.
 
 ### Exemples

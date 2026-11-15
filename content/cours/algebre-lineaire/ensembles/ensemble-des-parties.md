@@ -2,7 +2,7 @@
 title: Ensemble des Parties
 order: 8
 ---
-Soit $E$ un [[definition-ensemble|ensemble]].
+Soit $E$ un [[definition-ensemble|ensemble]] fini.
 > [!definition] Définition
 > L'**ensemble des parties** de $E$, noté $\mathcal{P}(E)$, est l'[[definition-ensemble|ensemble]] dont les éléments sont tous les [[sous-ensembles|sous-ensembles]] de $E$ :
 > $\mathcal{P}(E)=\{A \mid A \subset E\}$
