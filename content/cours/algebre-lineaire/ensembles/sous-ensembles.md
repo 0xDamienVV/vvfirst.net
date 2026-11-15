@@ -2,30 +2,34 @@
 title: Sous-Ensembles
 order: 4
 ---
-Soient $A,B \subset E$.
+
+Cette page définit l'inclusion et l'égalité de deux ensembles.
+
+Soient $A,B$ des [[definition-ensemble|ensembles]] et $E$ un ensemble contenant $A$ et $B$.
+
 > [!definition] Définition
-> On dit que $A$ est un **sous-ensemble** de $B$, ou que $A$ est **inclus** dans $B$, et on note $A \subset B$, si tout élément de $A$ appartient à $B$ :  
-> $A \subset B \Leftrightarrow \forall x \in E,\ (x \in A \Rightarrow x \in B)$
+> On dit que $A$ est un **sous-ensemble** de $B$, ou que $A$ est **inclus** dans $B$, et on note $A \subset B$, si tout élément de $A$ appartient à $B$ :
+> $$A \subset B \Leftrightarrow \forall x \in E,\ (x \in A \Rightarrow x \in B)$$
+> L'inclusion est **stricte**, notée $A \subsetneq B$, lorsque $A \subset B$ et $A \neq B$.
 
 > [!property] Propriété
-> Pour tout [[definition-ensemble|ensemble]] $E$ : $\varnothing \subset E$ ainsi que $E \subset E$.
+> Pour tout [[definition-ensemble|ensemble]] $E$ : $\varnothing \subset E$ et $E \subset E$.
 
 ### Exemples
 - $\{1,2\} \subset \{1,2,3\}$ est VRAI car chaque élément du premier ensemble appartient au second.
-- $\varnothing \subset E$ est VRAI car il n'existe aucun élément de $\varnothing$ qui puisse contredire l'[[cours/algebre-lineaire/verite/operateurs-logiques#implication|implication]], qui est vraie par vacuité.
+- $\varnothing \subset E$ est VRAI car il n'existe aucun élément de $\varnothing$ qui puisse contredire l'[[operateurs-logiques#implication|implication]], qui est vraie par vacuité.
 
 > [!warning] $\in$ et $\subset$ sont différents
-> $x \in A$ met en relation un élément $x$ avec un ensemble $A$.  
+> $x \in A$ met en relation un élément $x$ avec un ensemble $A$.
 > $A \subset B$ met en relation deux ensembles et signifie que chaque élément de $A$ appartient à $B$.
 
-# Égalité D'ensembles
-Soient $A,B \subset E$.
+# Égalité d'ensembles
 > [!definition] Définition
-> Les ensembles $A$ et $B$ sont **égaux**, noté $A=B$, si et seulement s'ils ont les mêmes éléments :  
-> $A=B \Leftrightarrow \forall x \in E,\ (x \in A \Leftrightarrow x \in B)$
+> Les ensembles $A$ et $B$ sont **égaux**, noté $A=B$, si et seulement s'ils ont les mêmes éléments :
+> $$A=B \Leftrightarrow \forall x \in E,\ (x \in A \Leftrightarrow x \in B)$$
 
 > [!property] Propriété
-> Pour démontrer que $A=B$, il suffit de prouver les deux inclusions : $A = B \equiv (A \subset B) \land (B \subset A)$.  
+> Pour démontrer que $A=B$, il suffit de prouver les deux inclusions : $A = B \equiv (A \subset B) \land (B \subset A)$.
 > C'est le raisonnement par **double inclusion**.
 
 ### Exemples

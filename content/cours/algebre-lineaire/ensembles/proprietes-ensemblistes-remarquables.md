@@ -2,10 +2,12 @@
 title: Propriétés Ensemblistes Remarquables
 order: 6
 ---
-Les propriétés ci-dessous sont très similaires aux [[cours/algebre-lineaire/verite/proprietes-logiques-remarquables|propriétés logiques remarquables]].
 
-# Double Complémentaire
+Les propriétés ci-dessous sont très similaires aux [[proprietes-logiques-remarquables|propriétés logiques remarquables]].
+
+# Double complémentaire
 Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
+
 > [!property] Propriété
 > $\complement_E(\complement_E(A)) = A$
 
@@ -14,8 +16,9 @@ Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
 
 # Commutativité
 Soient $A$ et $B$ des [[definition-ensemble|ensembles]] quelconques.
+
 > [!property] Propriété
-> $A \cap B = B \cap A$  
+> $A \cap B = B \cap A$
 > $A \cup B = B \cup A$
 
 ### Exemple
@@ -23,8 +26,9 @@ Soient $A$ et $B$ des [[definition-ensemble|ensembles]] quelconques.
 
 # Associativité
 Soient $A$, $B$ et $C$ des [[definition-ensemble|ensembles]] quelconques.
+
 > [!property] Propriété
-> $(A \cap B) \cap C = A \cap (B \cap C)$  
+> $(A \cap B) \cap C = A \cap (B \cap C)$
 > $(A \cup B) \cup C = A \cup (B \cup C)$
 
 ### Exemple
@@ -32,8 +36,9 @@ Soient $A$, $B$ et $C$ des [[definition-ensemble|ensembles]] quelconques.
 
 # Distributivité
 Soient $A$, $B$ et $C$ des [[definition-ensemble|ensembles]] quelconques.
+
 > [!property] Propriété
-> $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$  
+> $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 > $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$
 
 ### Exemple
@@ -41,8 +46,9 @@ Soient $A$, $B$ et $C$ des [[definition-ensemble|ensembles]] quelconques.
 
 # Idempotence
 Soit $A$ un [[definition-ensemble|ensemble]] quelconque.
+
 > [!property] Propriété
-> $A \cap A = A$  
+> $A \cap A = A$
 > $A \cup A = A$
 
 ### Exemple
@@ -50,8 +56,9 @@ Soit $A$ un [[definition-ensemble|ensemble]] quelconque.
 
 # Éléments neutres
 Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
+
 > [!property] Propriété
-> $A \cap E = A$  
+> $A \cap E = A$
 > $A \cup \varnothing = A$
 
 ### Exemple
@@ -59,8 +66,9 @@ Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
 
 # Éléments absorbants
 Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
+
 > [!property] Propriété
-> $A \cap \varnothing = \varnothing$  
+> $A \cap \varnothing = \varnothing$
 > $A \cup E = E$
 
 ### Exemple
@@ -68,17 +76,19 @@ Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
 
 # Absorption
 Soient $A$ et $B$ des [[definition-ensemble|ensembles]] quelconques.
+
 > [!property] Propriété
-> $A \cup (A \cap B) = A$  
+> $A \cup (A \cap B) = A$
 > $A \cap (A \cup B) = A$
 
 ### Exemple
 - $A \cup (A \cap B)$ est identique à $A$ car tout élément de $A \cap B$ appartient déjà à $A$.
 
-# Loi de Complémentarité
+# Loi de complémentarité
 Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
+
 > [!property] Propriété
-> $A \cup \complement_E(A) = E$  
+> $A \cup \complement_E(A) = E$
 > $A \cap \complement_E(A) = \varnothing$
 
 ### Exemple
@@ -86,11 +96,12 @@ Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.
 
 # Lois de De Morgan
 Soient $E$ un [[definition-ensemble|ensemble]] ainsi que $A, B \subset E$.
+
 > [!property] Propriété
-> $\complement_E(A \cap B) = \complement_E(A) \cup \complement_E(B)$  
+> $\complement_E(A \cap B) = \complement_E(A) \cup \complement_E(B)$
 > $\complement_E(A \cup B) = \complement_E(A) \cap \complement_E(B)$
 
-Ces lois découlent des [[cours/algebre-lineaire/verite/proprietes-logiques-remarquables#lois-de-de-morgan|lois de De Morgan logiques]].
+Ces lois découlent des [[proprietes-logiques-remarquables#lois-de-de-morgan|lois de De Morgan logiques]].
 
 ### Exemple
 - $\complement_E(A \cap B)$ est identique à $\complement_E(A) \cup \complement_E(B)$ car un élément n'est pas dans l'[[operations-ensemblistes#intersection|intersection]] dès qu'il manque dans l'un des deux ensembles.
