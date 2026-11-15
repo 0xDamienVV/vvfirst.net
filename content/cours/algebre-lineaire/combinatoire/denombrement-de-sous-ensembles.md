@@ -1,5 +1,5 @@
 ---
-title: Dénombrement de sous-ensembles
+title: Dénombrement de Sous-Ensembles
 order: 5
 ---
 Soit $E$ un [[definition-ensemble|ensemble]] fini avec $|E| = n$.

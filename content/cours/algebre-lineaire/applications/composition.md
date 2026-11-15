@@ -4,7 +4,7 @@ order: 8
 ---
 Soit $f : E \to F$ et $g : F \to G$ deux [[application|applications]].
 > [!definition] Définition
-> La **composée** de $f$ par $g$ est l'application $g \circ f : E \to G$ définie par :
+> La **composée** de $f$ par $g$, aussi dit « $f$ rond $g$ » est l'application $g \circ f : E \to G$ définie par :
 > $(g \circ f)(x) = g(f(x))$ pour tout $x \in E$.
 
 >[!property] Remarque
@@ -21,9 +21,6 @@ Soit $f : E \to F$ et $g : F \to G$ deux [[application|applications]].
 > 4. Sur des ensembles finis, dresser le tableau des images de $x$, puis $f(x)$, puis $g(f(x))$.
 
 ### Exemples
-- Avec $f(x)=x+1$ et $g(x)=x^2$ sur $\mathbb{R}$, $g \circ f(x) = (x+1)^2$ mais $f \circ g(x) = x^2+1$ : la composition n'est PAS commutative, VRAI.
-- $g \circ f$ peut être injective sans que $g$ le soit : avec $f : \mathbb{R}_+ \to \mathbb{R}$, $x \mapsto x$ et $g(x)=x^2$ sur $\mathbb{R}$, $g \circ f$ est injective alors que $g$ ne l'est pas : VRAI.
-- $g \circ f$ peut être surjective sans que $f$ le soit : avec $f : \mathbb{R}_+ \to \mathbb{R}$, $x \mapsto x$ et $g(x)=x^2$ de $\mathbb{R}$ dans $\mathbb{R}_+$, $g \circ f$ est surjective alors que $f$ ne l'est pas : VRAI.
-
-> [!warning] Attention
-> $g \circ f$ se lit « $g$ rond $f$ » et applique **$f$ en premier**.
+- Avec $f(x)=x+1$ et $g(x)=x^2$ sur $\mathbb{R}$, $g \circ f(x) = (x+1)^2$ mais $f \circ g(x) = x^2+1$ : la composition n'est PAS commutative.
+- $g \circ f$ peut être injective sans que $g$ le soit : avec $f : \mathbb{R}_+ \to \mathbb{R}$, $x \mapsto x$ et $g(x)=x^2$ sur $\mathbb{R}$, $g \circ f$ est injective alors que $g$ ne l'est pas.
+- $g \circ f$ peut être surjective sans que $f$ le soit : avec $f : \mathbb{R}_+ \to \mathbb{R}$, $x \mapsto x$ et $g(x)=x^2$ de $\mathbb{R}$ dans $\mathbb{R}_+$, $g \circ f$ est surjective alors que $f$ ne l'est pas.

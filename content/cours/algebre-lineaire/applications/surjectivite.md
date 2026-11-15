@@ -16,14 +16,10 @@ Soit $f : E \to F$ une [[application|application]].
 > 1. Fixer $y \in F$ quelconque et résoudre $f(x) = y$ d'inconnue $x \in E$.
 > 2. **Pour prouver** : trouver une solution $x \in E$ valable pour tout $y \in F$.
 > 3. **Pour réfuter** : exhiber un $y \in F$ sans antécédent (le plus souvent, un $y$ hors de $f(E)$).
-> 4. **Alternative** : calculer $f(E)$ (étude de variations) et le comparer à $F$.
-> 5. **Pour rendre surjective** : restreindre l'ensemble d'arrivée à $f(E)$.
+> 4. **Pour rendre surjective** : restreindre l'ensemble d'arrivée à $f(E)$.
 
 ### Exemples
-- $x \mapsto x^2$ de $\mathbb{R}$ dans $\mathbb{R}$ n'est PAS surjective car $-1$ n'a pas d'antécédent, mais $x \mapsto x^2$ de $\mathbb{R}$ dans $\mathbb{R}_+$ l'EST : VRAI (voir [[ensembles-de-nombres|ensembles de nombres]]).
+- $x \mapsto x^2$ de $\mathbb{R}$ dans $\mathbb{R}$ n'est PAS surjective car $-1$ n'a pas d'antécédent, mais $x \mapsto x^2$ de $\mathbb{R}$ dans $\mathbb{R}_+$ l'est.
 - $x \mapsto \sin(x)$ de $\mathbb{R}$ dans $[-1, 1]$ est surjective sans être injective : VRAI.
-- Avec $f(\alpha)=\gamma$, $f(\beta)=\alpha$, $f(\gamma)=\delta$, $f(\delta)=\alpha$ de $E=\{\alpha,\beta,\gamma,\delta\}$ dans $E$, $f$ n'est PAS surjective car $\beta$ n'a pas d'antécédent : VRAI.
-- Pour $E$ et $F$ finis avec $|E| = |F|$, $f$ injective $\iff$ $f$ surjective est VRAI ; cela devient FAUX si $|E| \neq |F|$.
-
-> [!warning] Attention
-> La surjectivité dépend de l'ensemble d'**arrivée** : changer $F$ peut la créer ou la détruire.
+- Avec $f(\alpha)=\gamma$, $f(\beta)=\alpha$, $f(\gamma)=\delta$, $f(\delta)=\alpha$ de $E=\{\alpha,\beta,\gamma,\delta\}$ dans $E$:  
+$f$ n'est PAS surjective car $\beta$ n'a pas d'antécédent : VRAI.

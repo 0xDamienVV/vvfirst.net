@@ -18,8 +18,6 @@ Soit $f : E \to F$ une [[application|application]] et $y \in F$.
 
 ### Exemples
 - Pour $f(x)=x^2$ sur $\mathbb{R}$, $y=4$ a deux antécédents ($-2$ et $2$), $y=0$ en a un seul et $y=-1$ n'en a aucun : VRAI.
-- Pour $f(x)=x^2+6x+7$ sur $\mathbb{R}$, $f(x)=y \iff (x+3)^2 = y+2$, donc $y$ a deux antécédents si $y>-2$, un seul si $y=-2$, aucun si $y<-2$ : VRAI.
-- Pour $f(x)=x^2$ sur $\mathbb{R}_+$, $y=4$ n'a qu'un antécédent car $-2 \notin \mathbb{R}_+$ (voir [[ensembles-de-nombres|ensembles de nombres]]).
-
-> [!warning] Attention
-> Ne pas confondre **image** (unique) et **antécédent** (pas forcément unique ni existant).
+- Pour $f(x)=x^2+6x+7$ sur $\mathbb{R}$, $f(x)=y \iff (x+3)^2 = y+2$, donc:  
+$y$ a deux antécédents si $y>-2$, un seul si $y=-2$, aucun si $y<-2$ : VRAI.
+- Pour $f(x)=x^2$ sur $\mathbb{R}_+$, $y=4$ n'a qu'un antécédent car $-2 \notin \mathbb{R}_+$.
