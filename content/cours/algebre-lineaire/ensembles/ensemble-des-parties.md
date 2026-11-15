@@ -8,7 +8,7 @@ Soit $E$ un [[definition-ensemble|ensemble]] fini.
 > $\mathcal{P}(E)=\{A \mid A \subset E\}$
 
 >[!property] Remarque
-> Le [[cardinal|cardinal]] de $\mathcal{P}(E)$ est $2^{|E|}$.
+> Le [[cardinal|cardinal]] de $\mathcal{P}(E)$ est $2^{|E|}$. (Pour plus de details: [[triangle-de-pascal|Triangle de Pascal]])
 
 ### Exemples
 - $\varnothing \in \mathcal{P}(E)$ est VRAI car l'ensemble vide est inclus dans tout ensemble $E$.

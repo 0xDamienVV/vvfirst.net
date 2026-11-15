@@ -2,11 +2,11 @@
 title: Binôme de Newton
 order: 4
 ---
-Soient $a, b \in \mathbb{R}$ (voir [[ensembles-de-nombres|ensembles de nombres]]) et $n \in \mathbb{N}$.
+Soient $a, b \in \mathbb{R}$ et $n \in \mathbb{N}$.
 > [!definition] Théorème
 > $(a+b)^n = \displaystyle\sum_{k=0}^{n} \binom{n}{k}\, a^{n-k}\, b^{k}$
 
-Les coefficients sont ceux de la ligne $n$ du [[triangle-de-pascal|triangle de Pascal]] (voir [[coefficient-binomial|coefficient binomial]]).
+Les coefficients sont ceux de la ligne $n$ du [[triangle-de-pascal|triangle de Pascal]].
 
 >[!property] Conséquences
 > - En posant $a = b = 1$ : $\sum_{k=0}^{n} \binom{n}{k} = 2^n$.
@@ -22,4 +22,5 @@ Les coefficients sont ceux de la ligne $n$ du [[triangle-de-pascal|triangle de P
 Pour trouver le coefficient d'un terme $x^m$ dans $(a+bx)^n$, on identifie le terme $k = m$ : $\binom{n}{m}\, a^{n-m}\, b^{m}$.
 
 > [!warning] Attention
-> L'indice $k$ porte sur $b$ : le terme en $b^k$ a pour coefficient $\binom{n}{k}$, pas $\binom{n}{n-k}$ à confondre avec $a^k$ (même valeur par symétrie, mais l'exposant à repérer est celui de la variable).
+> L'indice $k$ porte sur $b$ : le terme en $b^k$ a pour coefficient $\binom{n}{k}$, pas $\binom{n}{n-k}$ à confondre avec $a^k$  
+>(même valeur par symétrie, mais l'exposant à repérer est celui de la variable).
