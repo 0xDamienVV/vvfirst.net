@@ -4,7 +4,6 @@ order: 2
 ---
 Il existe des écritures spéciales pour désigner des [[definition-ensemble|ensembles]] souvent utilisés.
 
-# Ensembles De Nombres
 > [!definition] Définition
 > - $\mathbb{P} = \{p \in \mathbb{N} \mid p \geq 2 \land \forall d \in \mathbb{N},\ (d \mid p \Rightarrow d = 1 \lor d = p)\}$ est l'ensemble des **nombres premiers**.
 > - $\mathbb{N} = \{0, 1, 2, \dots\}$ est l'ensemble des **entiers naturels**.

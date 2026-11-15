@@ -2,11 +2,7 @@
 title: Propriétés Ensemblistes Remarquables
 order: 6
 ---
-
-# Ensembles Identiques
-> [!definition] Définition
-> Deux [[definition-ensemble|ensembles]] $A$ et $B$ sont dits **identiques**, notés $A = B$, s'ils ont les mêmes éléments, c'est-à-dire si $A \subset B$ et $B \subset A$.  
-> Les propriétés ci-dessous sont très similaires aux [[cours/algebre-lineaire/verite/proprietes-logiques-remarquables|propriétés logiques remarquables]].
+Les propriétés ci-dessous sont très similaires aux [[cours/algebre-lineaire/verite/proprietes-logiques-remarquables|propriétés logiques remarquables]].
 
 # Double Complémentaire
 Soient $E$ un [[definition-ensemble|ensemble]] et $A \subset E$.

@@ -15,7 +15,7 @@ Soient $A,B \subset E$.
 - $\{1,2\} \subset \{1,2,3\}$ est VRAI car chaque élément du premier ensemble appartient au second.
 - $\varnothing \subset E$ est VRAI car il n'existe aucun élément de $\varnothing$ qui puisse contredire l'[[cours/algebre-lineaire/verite/operateurs-logiques#implication|implication]], qui est vraie par vacuité.
 
-> [!warning] $\in$ et $\subset$
+> [!warning] $\in$ et $\subset$ sont différents
 > $x \in A$ met en relation un élément $x$ avec un ensemble $A$.  
 > $A \subset B$ met en relation deux ensembles et signifie que chaque élément de $A$ appartient à $B$.
 

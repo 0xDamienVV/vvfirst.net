@@ -14,17 +14,12 @@ order: 1
 > Ni l'ordre des éléments ni leurs répétitions n'ont d'importance : $\{1, 2, 2\} = \{2, 1\}$.
 
 # Ensemble Vide
-Soit $E$ un ensemble.
 > [!definition] Définition
 > L'**ensemble vide**, noté $\varnothing$, est l'ensemble qui ne contient aucun élément.
 
 ### Exemples
 - $\varnothing = \{\varnothing\}$ est FAUX car $\varnothing$ ne contient aucun élément alors que $\{\varnothing\}$ en contient un.
 - $\varnothing \in \{\varnothing\}$ est VRAI car l'ensemble vide est l'unique élément de $\{\varnothing\}$.
-
-> [!warning] $\varnothing$ et $\{\varnothing\}$
-> $\varnothing$ ne contient aucun élément, tandis que $\{\varnothing\}$ contient un élément, qui est l'ensemble vide lui-même.  
-> Ainsi $\varnothing \neq \{\varnothing\}$.
 
 # Définir Un Ensemble
 ## En Extension
@@ -46,6 +41,7 @@ Soient $E$ un ensemble et $P(x)$ un [[cours/algebre-lineaire/verite/enonce#préd
 > $\{x \in E \mid P(x)\}$ est l'ensemble des éléments $x$ de $E$ pour lesquels $P(x)$ est **VRAIE**.
 
 ### Exemples
-- $\{3, 7, 11, 15, \dots\} = \{x \in \mathbb{N} \mid \exists k \in \mathbb{N},\ x = 4k + 3\}$ est VRAI car chaque terme vaut $3$ plus un multiple de $4$, et le [[cours/algebre-lineaire/verite/quantificateurs#quantificateur-existentiel|quantificateur existentiel]] exprime cette condition.
-- $\{2, 5, 10, 17, 26, \dots\} = \{x \in \mathbb{N} \mid \exists k \in \mathbb{N}^*,\ x = k^2 + 1\}$ est VRAI car on ajoute $1$ aux carrés $1, 4, 9, 16, 25, \dots$
-- $\{x \in \mathbb{R} \mid x \leq -1 \lor x \geq 2\}$ est un ensemble défini en compréhension car sa propriété caractéristique est une [[cours/algebre-lineaire/verite/operateurs-logiques#disjonction|disjonction]].
+- $\{x \in \{1,2,3,4,5,6\} \mid x \text{ est pair}\} = \{2,4,6\}$ est VRAI car $2$, $4$ et $6$ sont les seuls éléments pairs de $\{1,2,3,4,5,6\}$.
+- $\{x \in \{1,2,3,4\} \mid x > 2\} = \{3,4\}$ est VRAI car $3$ et $4$ sont les seuls éléments strictement supérieurs à $2$.
+- $\{x \in \{-2,-1,0,1,2\} \mid x^2 = 1\} = \{-1,1\}$ est VRAI car $(-1)^2 = 1^2 = 1$ et aucun autre élément ne vérifie l'égalité.
+- $\{x \in \{1,2,3,4,5\} \mid x \leq 2 \lor x \geq 4\} = \{1,2,4,5\}$ est VRAI car la [[cours/algebre-lineaire/verite/operateurs-logiques#disjonction|disjonction]] garde les éléments satisfaisant au moins une des deux conditions.
