@@ -3,8 +3,6 @@ title: Ensembles Conventionnels
 order: 2
 ---
 
-Cette page fixe les notations des [[definition-ensemble|ensembles]] de nombres utilisés dans tout le cours.
-
 > [!definition] Définition
 > - $\mathbb{P} = \{p \in \mathbb{N} \mid (p \geq 2) \land (\forall d \in \mathbb{N},\ (d \mid p \Rightarrow (d = 1 \lor d = p)))\}$ est l'ensemble des **nombres premiers**.
 > - $\mathbb{N} = \{0, 1, 2, \dots\}$ est l'ensemble des **entiers naturels**.
@@ -20,7 +18,8 @@ Cette page fixe les notations des [[definition-ensemble|ensembles]] de nombres u
 ### Exemples
 - $\mathbb{N} \subset \mathbb{Z}$ est VRAI car tout entier naturel $n$ s'écrit $n - 0$ avec $n, 0 \in \mathbb{N}$.
 - $\frac{1}{2} \in \mathbb{Q}$ et $\frac{1}{2} \notin \mathbb{Z}$ sont VRAIS car $\frac{1}{2}$ est un quotient d'entiers mais n'est pas un entier.
-- $1 \notin \mathbb{P}$ est VRAI car un nombre premier est supérieur ou égal à $2$.
+- $1 \notin \mathbb{P}$ est VRAI car un nombre premier est supérieur ou égal à $2$, alors que $2 \in \mathbb{P}$.
+- $0 \in \mathbb{N}$ est VRAI car $\mathbb{N}$ contient $0$, contrairement à ce que suggère parfois l'usage courant du mot « naturel ».
 
 > [!warning] Définitions provisoires
 > Les définitions données ici sont intuitives.
@@ -41,3 +40,4 @@ Cette page fixe les notations des [[definition-ensemble|ensembles]] de nombres u
 - $\mathbb{R}_+^* = \mathopen{]}0,+\infty\mathclose{[}$ est VRAI car ce sont exactement les réels strictement positifs, comme l'indique la définition d'un [[intervalles|intervalle]] ouvert.
 - $\mathbb{Z}_-^* = \{-1,-2,\dots\}$ est VRAI car on a retiré $0$ des entiers négatifs ou nuls par la [[operations-ensemblistes#différence|différence]] $\mathbb{Z}_- \setminus \{0\}$.
 - $0 \in \mathbb{R}_+$ et $0 \notin \mathbb{R}_+^*$ sont VRAIS car $0$ est positif ou nul mais n'est pas strictement positif.
+- $0 \in \mathbb{Z}^*$ est FAUX car l'exposant $^*$ retire $0$ de l'[[definition-ensemble|ensemble]], alors que $0 \in \mathbb{Z}$ est VRAI.
