@@ -5,29 +5,29 @@ order: 5
 # Réunion
 Soient $A,B \subset E$.
 > [!definition] Définition
-> La **réunion** de $A$ et $B$, notée $A \cup B$, contient les éléments qui appartiennent à $A$ ou à $B$ (ou aux deux) :
+> La **réunion** de $A$ et $B$, notée $A \cup B$, contient les éléments qui appartiennent à $A$ ou à $B$ (ou aux deux) :  
 > $A \cup B = \{x \in E \mid x \in A \lor x \in B\}$
 
 ### Exemples
-- $\{1,2\} \cup \{2,3\}=\{1,2,3\}$ est VRAI car les éléments communs ne sont écrits qu'une fois dans l'ensemble réunion.
-- $A \subset A \cup B$ est VRAI car tout élément de $A$ satisfait la condition d'appartenance à $A$ ou à $B$.
+- $\{1,2\} \cup \{2,3\}=\{1,2,3\}$ est VRAI car les éléments communs ne sont écrits qu'une fois dans l'[[definition-ensemble|ensemble]] réunion.
+- $A \subset A \cup B$ est VRAI car tout élément de $A$ satisfait la condition d'appartenance à $A$ ou à $B$, qui est une [[cours/algebre-lineaire/verite/operateurs-logiques#disjonction|disjonction]].
 
 # Intersection
 Soient $A,B \subset E$.
 > [!definition] Définition
-> L'**intersection** de $A$ et $B$, notée $A \cap B$, contient les éléments qui appartiennent à la fois à $A$ et à $B$ :
-> $A \cap B = \{x \in E \mid x \in A \land x \in B\}$
+> L'**intersection** de $A$ et $B$, notée $A \cap B$, contient les éléments qui appartiennent à la fois à $A$ et à $B$ :  
+> $A \cap B = \{x \in E \mid x \in A \land x \in B\}$  
 > Deux ensembles sont **disjoints** si leur intersection est vide.
 
 ### Exemples
 - $\{1,2\} \cap \{2,3\}=\{2\}$ est VRAI car $2$ est leur seul élément commun.
-- $\{1,2\}$ et $\{3,4\}$ sont disjoints est VRAI car ils n'ont aucun élément commun.
+- $\{1,2\}$ et $\{3,4\}$ sont disjoints est VRAI car leur intersection est l'[[definition-ensemble#ensemble-vide|ensemble vide]].
 
 # Complémentaire
-Soient $A \subset E$.
+Soit $A \subset E$.
 > [!definition] Définition
-> Le **complémentaire** de $A$ dans $E$, noté $\complement_E A$, est l'ensemble des éléments de $E$ qui n'appartiennent pas à $A$ :
-> $\complement_E A = \{x \in E \mid x \notin A\}$
+> Le **complémentaire** de $A$ dans $E$, noté $\complement_E A$, est l'ensemble des éléments de $E$ qui n'appartiennent pas à $A$ :  
+> $\complement_E A = \{x \in E \mid x \notin A\}$  
 > Le complémentaire dépend de l'ensemble de référence $E$.
 
 ### Exemples
@@ -37,9 +37,9 @@ Soient $A \subset E$.
 # Différence
 Soient $A,B \subset E$.
 > [!definition] Définition
-> La **différence** $A \setminus B$ est l'ensemble des éléments de $A$ qui ne sont pas dans $B$ :
+> La **différence** $A \setminus B$ est l'ensemble des éléments de $A$ qui ne sont pas dans $B$ :  
 > $A \setminus B = \{x \in E \mid x \in A \land x \notin B\}$
 
 ### Exemples
 - $\{1,2,3\} \setminus \{2,3,4\}=\{1\}$ est VRAI car $1$ est le seul élément du premier ensemble absent du second.
-- $A \setminus B = A \cap (E \setminus B)$ est VRAI car ces deux ensembles contiennent exactement les éléments de $A$ qui ne sont pas dans $B$.
+- $A \setminus B = A \cap \complement_E B$ est VRAI car ces deux ensembles contiennent exactement les éléments de $A$ qui ne sont pas dans $B$.
