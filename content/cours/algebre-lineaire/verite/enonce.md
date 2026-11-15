@@ -9,7 +9,6 @@ order: 1
 # Propositions
 > [!definition] Définition
 > Un **énoncé propositionnel**, ou **proposition**, est un énoncé dont on peut dire sans ambiguïté qu'il est strictement soit **VRAI**, soit **FAUX**.  
-> Les [[operateurs-logiques|opérateurs logiques]] permettent de construire de nouvelles propositions à partir de propositions existantes.
 
 ## Nommer une proposition
 On peut donner un nom à une proposition pour la réutiliser plus facilement :
@@ -32,13 +31,15 @@ On peut alors dire que $T$ est VRAIE car $4$ est égal à $4$.
 
 # Prédicats
 > [!definition] Définition
-> Un **prédicat** est un énoncé contenant des variables indéterminées, qui devient une proposition quand on fixe ces variables ou qu'on les [[quantificateurs|quantifie]].
+> Un **prédicat** est un énoncé contenant des variables indéterminées, qui devient une proposition quand on fixe ces variables.
 
 ## Nommer un prédicat
 Comme les propositions, les prédicats peuvent être nommés :
 
 $T(x) : x < 3$
 
+On note $T(1)$ la proposition obtenue en fixant $x=1$.
+
 ### Exemples
-- « $x = 3$ » est un prédicat car la variable $x$ n'est pas fixée ni [[quantificateurs|quantifiée]].
+- « $x = 3$ » est un prédicat car la variable $x$ n'est pas fixée.
 - « $x = 3$ » est FAUX quand $x=0$ car $0$ est différent de $3$.

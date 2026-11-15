@@ -1,6 +1,6 @@
 ---
 title: Coefficient Binomial
-order: 2
+order: 3
 ---
 Soient $n, k \in \mathbb{N}$ avec $0 \leq k \leq n$.
 > [!definition] Définition
@@ -21,3 +21,5 @@ Soient $n, k \in \mathbb{N}$ avec $0 \leq k \leq n$.
 - $\binom{5}{2} = 10$ est VRAI car $\dfrac{5!}{2!\,3!} = \dfrac{120}{12} = 10$.
 - $\binom{4}{0} = 1$ est VRAI car il n'y a qu'un seul sous-ensemble à $0$ élément : $\varnothing$.
 - $\binom{6}{2} = \binom{6}{4}$ est VRAI par symétrie.
+- $\binom{11}{9} = 55$ est VRAI car $\binom{11}{9} = \binom{11}{2} = \dfrac{11 \cdot 10}{2}$.
+- $\displaystyle\sum_{k=1}^{3}\binom{2k+1}{3} = 46$ est VRAI car $\binom{3}{3}+\binom{5}{3}+\binom{7}{3} = 1+10+35$ (voir [[notation-somme|notation somme]]).

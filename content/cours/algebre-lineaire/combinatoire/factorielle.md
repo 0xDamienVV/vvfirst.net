@@ -1,6 +1,6 @@
 ---
 title: Factorielle
-order: 1
+order: 2
 ---
 > [!definition] Définition
 > La **factorielle** est définie sur $n \in \mathbb{N}$ :

@@ -62,9 +62,9 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 > [!definition] Définition
 > Notée $P \Rightarrow Q$ ou « si $P$ alors $Q$ », l'**implication** est un opérateur logique.  
 > Elle est **FAUSSE** dans le seul cas où $P$ est **VRAIE** et $Q$ **FAUSSE**.  
-> Elle est [[proprietes-logiques-remarquables|logiquement équivalente]] à $(\neg P) \lor Q$.
+> Elle a les mêmes valeurs de vérité que $(\neg P) \lor Q$.
 
-Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**. Voir aussi la [[implications-remarquables|réciproque et la contraposée]].
+Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**.
 
 | $P$ | $Q$ | $P \Rightarrow Q$ |
 |:---:|:---:|:---:|
@@ -78,15 +78,14 @@ Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**. Voir 
 - $(2=3) \Rightarrow (3<5)$ est VRAI car une implication à hypothèse fausse est vraie par vacuité.
 
 > [!warning] Le faux implique tout
-> Si $P$ est fausse, alors $P \Rightarrow Q$ est vraie, quel que soit $Q$ : c'est une vérité par vacuité.  
-> Cette règle est reliée au cas de l'[[cours/algebre-lineaire/ensembles/|ensemble]] vide : aucun élément ne peut constituer un contre-exemple.
+> Si $P$ est fausse, alors $P \Rightarrow Q$ est vraie, quel que soit $Q$ : c'est une vérité **par vacuité**.
 
 # Équivalence
 Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 > [!definition] Définition
 > Notée $P \Leftrightarrow Q$ ou « $P$ si et seulement si $Q$ », l'**équivalence** est un opérateur logique.  
 > Elle est **VRAIE** quand $P$ et $Q$ ont la même valeur de vérité.  
-> Elle est [[proprietes-logiques-remarquables|logiquement équivalente]] à $(P \Rightarrow Q) \land (Q \Rightarrow P)$.
+> Elle a les mêmes valeurs de vérité que $(P \Rightarrow Q) \land (Q \Rightarrow P)$.
 
 | $P$ | $Q$ | $P \Leftrightarrow Q$ |
 |:---:|:---:|:---:|

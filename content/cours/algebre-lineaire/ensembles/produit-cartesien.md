@@ -17,7 +17,7 @@ Soient $A,B$ des [[definition-ensemble|ensembles]].
 > On note $E^2=E \times E$ le **produit cartésien** d'un même [[definition-ensemble|ensemble]].
 > Le [[cardinal|cardinal]] de $A \times B$ est $|A| |B|$.
 
-### Exemple
+### Exemples
 Soient $A = \{x, y, z\}$ et $B = \{1, 2\}$. Alors :
 $A \times B = \{(x,1),\ (x,2),\ (y,1),\ (y,2),\ (z,1),\ (z,2)\}$
 

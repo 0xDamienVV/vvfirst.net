@@ -32,7 +32,7 @@ configuration:
         textHighlight: "#ffb00055"
       darkMode:
         light: "#0a0f0a"
-        lightgray: "#2a9a3d"
+        lightgray: "#14591c"
         gray: "#1a8035"
         darkgray: "#2bd95a"
         dark: "#4fd97a"
@@ -59,7 +59,7 @@ plugins:
     enabled: true
     options:
       theme:
-        light: github-light
+        light: github-dark
         dark: github-dark
       keepBackground: false
     order: 20

@@ -88,7 +88,16 @@ Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
 > $\neg(P \land Q) \equiv (\neg P) \lor (\neg Q)$  
 > $\neg(P \lor Q) \equiv (\neg P) \land (\neg Q)$
 
-Ces lois sont également à l'origine de la [[quantificateurs#négation-des-quantificateurs|négation des quantificateurs]].
-
 ### Exemple
 - $\neg(P \land Q)$ est identique à $(\neg P) \lor (\neg Q)$ car la [[operateurs-logiques#conjonction|conjonction]] est fausse dès qu'un terme est faux.
+
+# Négation d'une implication
+Soient $P$ et $Q$ des [[enonce#propositions|propositions]] quelconques.
+> [!property] Propriété
+> $(P \Rightarrow Q) \equiv (\neg P) \lor Q$  
+> $\neg(P \Rightarrow Q) \equiv P \land (\neg Q)$
+
+La seconde identité découle de la première par les lois de De Morgan et la double [[operateurs-logiques#négation|négation]].
+
+### Exemple
+- $\neg(P \Rightarrow Q)$ est identique à $P \land (\neg Q)$ car une [[operateurs-logiques#implication|implication]] n'est fausse que si l'hypothèse est vraie et la conclusion fausse.
