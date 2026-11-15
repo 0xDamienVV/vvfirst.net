@@ -3,8 +3,6 @@ title: Opérateurs Logiques
 order: 2
 ---
 
-Cette page présente les connecteurs logiques et leurs tables de vérité.
-
 > [!definition] Définition
 > Un **opérateur logique** est une opération qui agit sur une ou plusieurs [[enonce#propositions|propositions]] pour construire une nouvelle [[enonce#propositions|proposition]].
 > Sa valeur de vérité dépend uniquement des valeurs de vérité des [[enonce#propositions|propositions]] de départ.
@@ -21,8 +19,9 @@ Soit $P$ une [[enonce#propositions|proposition]] quelconque.
 | VRAI | FAUX |
 | FAUX | VRAI |
 
-### Exemple
+### Exemples
 - $\neg(3=5)$ est VRAI car $3=5$ est FAUX.
+- $\neg(3<5)$ est FAUX car $3<5$ est VRAI : la [[operateurs-logiques#négation|négation]] échange les deux valeurs de vérité.
 
 # Conjonction
 Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
@@ -38,8 +37,9 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 | FAUX | VRAI | FAUX |
 | FAUX | FAUX | FAUX |
 
-### Exemple
-- $(3=5) \land (4=4)$ est FAUX car le premier terme est FAUX.
+### Exemples
+- $(3=5) \land (4=4)$ est FAUX car le premier terme est FAUX, même si le second est VRAI.
+- $(2=3) \land (3=5)$ est FAUX car les deux termes sont FAUX.
 
 # Disjonction
 Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
@@ -55,11 +55,12 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 | FAUX | VRAI | VRAI |
 | FAUX | FAUX | FAUX |
 
-### Exemple
+### Exemples
 - $(2=2) \lor (2>1)$ est VRAI car les deux [[enonce#propositions|propositions]] sont VRAIES.
+- $(3=5) \lor (2>1)$ est VRAI car il suffit d'une seule proposition VRAIE, contrairement à la [[operateurs-logiques#conjonction|conjonction]].
 
 > [!warning] Le « ou » mathématique est inclusif
-> $P \lor Q$ est vraie lorsque $P$ et $Q$ sont vraies en même temps.
+> $(2=2) \lor (2>1)$ est VRAI alors que les deux [[enonce#propositions|propositions]] sont vraies en même temps.
 > En langage naturel, le « ou » est souvent exclusif pour communiquer l'idée d'un choix, contrairement au « ou » mathématique.
 
 # Implication
@@ -80,12 +81,9 @@ Dans $P \Rightarrow Q$, $P$ est l'**hypothèse** et $Q$ la **conclusion**. Voir 
 | FAUX | FAUX | VRAI |
 
 ### Exemples
-- $(3<5) \Rightarrow (2=3)$ est FAUX car l'hypothèse est vraie et la conclusion est fausse.
-- $(2=3) \Rightarrow (3<5)$ est VRAI car une implication à hypothèse fausse est vraie par vacuité.
-
-> [!warning] Le faux implique tout
-> Si $P$ est fausse, alors $P \Rightarrow Q$ est vraie, quel que soit $Q$ : c'est une vérité par vacuité.
-> Cette règle est reliée au cas de l'[[definition-ensemble#ensemble-vide|ensemble vide]] : aucun élément ne peut constituer un contre-exemple.
+- $(3<5) \Rightarrow (2=3)$ est FAUX car l'hypothèse est VRAIE et la conclusion FAUSSE.
+- $(2=3) \Rightarrow (3<5)$ est VRAI car une implication à hypothèse FAUSSE est vraie par vacuité.
+- $(2=3) \Rightarrow (2 \neq 3)$ est VRAI, alors que l'hypothèse et la conclusion se contredisent : c'est le cas le plus contre-intuitif de la vacuité.
 
 # Équivalence
 Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
@@ -104,4 +102,4 @@ Soient $P$ et $Q$ deux [[enonce#propositions|propositions]] quelconques.
 
 ### Exemples
 - $(3<5) \Leftrightarrow (2=3)$ est FAUX car les deux [[enonce#propositions|propositions]] ont des valeurs différentes.
-- $(2=3) \Leftrightarrow (3>5)$ est VRAI car les deux [[enonce#propositions|propositions]] sont FAUSSES.
+- $(2=3) \Leftrightarrow (3>5)$ est VRAI car les deux [[enonce#propositions|propositions]] sont FAUSSES : deux propositions fausses sont équivalentes.
