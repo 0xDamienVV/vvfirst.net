@@ -43,6 +43,7 @@ Soient $A$, $B$ et $C$ des [[definition-ensemble|ensembles]] quelconques.
 
 ### Exemple
 - $A \cap (B \cup C)$ est identique à $(A \cap B) \cup (A \cap C)$ car l'[[operations-ensemblistes#intersection|intersection]] se distribue sur la [[operations-ensemblistes#réunion|réunion]].
+- La seconde identité est le cas non intuitif : la [[operations-ensemblistes#réunion|réunion]] se distribue aussi sur l'[[operations-ensemblistes#intersection|intersection]], ce qui n'a aucun équivalent avec $+$ et $\times$ sur les nombres.
 
 # Idempotence
 Soit $A$ un [[definition-ensemble|ensemble]] quelconque.
